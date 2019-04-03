@@ -47,3 +47,4 @@
     loop_var: attr_name
     label: "{{ '{%s: %s}' | format(attr_name, pcmk_constraint[attr_name]) }}"
   check_mode: false
+- include_tasks: post.yml
